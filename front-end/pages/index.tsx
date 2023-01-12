@@ -168,7 +168,7 @@ export default function Home() {
         console.log("Ethereum object doesn't exist!");
       }
     } catch (error) {
-      toast.error(`${error.message}`, {
+      toast.error(`${error}`, {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -277,7 +277,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Mini Buy Me a Coffee</title>
+        <title>Buy Me a Coffee</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
