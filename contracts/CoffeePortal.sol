@@ -31,11 +31,7 @@ contract CoffeePortal {
         return(totalCoffee);
     }
     // function buyCoffee
-    // function buyCoffee(string memory _message,string memory _name,uint256 _payAmount) public payable {
-    //     require(_payAmount <= 0.001 ether,"Too Low!");
-    // }
-
-     function buyCoffee(uint256 _payAmount) public payable {
+    function buyCoffee(string memory _message,string memory _name,uint256 _payAmount) public payable {
         require(_payAmount <= 0.001 ether,"Too Low!");
     }
 }
